@@ -1,0 +1,2 @@
+# README
+For this [project](https://www.theodinproject.com/paths/full-stack-ruby-on-rails/courses/html-and-css/lessons/design-teardown), I will be dissecting [Smashing Magazine's homepage](https://www.smashingmagazine.com/) to practice thinking in terms of visual hierarchy, typography and design principles. Specifically, I will make a grey scale heat map of how I perceive the site's visual hierarchy.
