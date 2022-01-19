@@ -131,3 +131,30 @@ nav {
 #first-post > h2 {
 	height: 120px;
 }
+
+/* Guides */
+
+.guides {
+	display: grid;
+	grid-template: 1fr / 1fr 1fr 1fr;
+	justify-items: center;
+}
+
+.guide {
+	display: flex;
+	flex-direction: column;
+	height: 450px;
+	width: 500px;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.guide > h2 {
+	height: 70px;
+	width: 350px;
+}
+
+.guide > .btn {
+	height: 70px;
+	width: 350px;
+}
