@@ -72,6 +72,32 @@ table {
   background-color: rgb(122, 122, 122);
 }
 
+h1,
+h2,
+h3,
+div,
+p {
+	font-family: 'Courier New', Courier, monospace;
+}
+
+h1,
+h2 {
+	font-weight: 700;
+}
+
+h1 {
+	font-size: 40px;
+}
+
+h2 {
+	font-size: 35px;
+}
+
+p,
+div {
+	font-size: 24px;
+}
+
 /* Header */
 
 header {
@@ -129,6 +155,7 @@ nav {
 }
 
 #first-post > h2 {
+	font-size: 40px;
 	height: 120px;
 }
 
