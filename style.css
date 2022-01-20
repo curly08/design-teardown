@@ -229,3 +229,29 @@ nav {
 	height: 90px;
 	width: 600px;
 }
+
+/* Community Links */
+
+.community-links {
+	margin: 120px;
+	display: grid;
+	grid-template: repeat(5, 1fr) / 1fr 1fr;
+	column-gap: 30px;
+	row-gap: 80px;
+	justify-items: center;
+}
+
+.full-link {
+	grid-column: 1 / span 2;
+	height: 300px;
+	width: 100%;
+}
+
+.half-link {
+	height: 300px;
+	width: 750px;
+}
+
+.half-link > h2 {
+	height: 100px;
+}
