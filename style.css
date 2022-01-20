@@ -235,7 +235,7 @@ nav {
 .community-links {
 	margin: 120px;
 	display: grid;
-	grid-template: repeat(5, 1fr) / 1fr 1fr;
+	grid-template: repeat(4, 1fr) / 1fr 1fr;
 	column-gap: 30px;
 	row-gap: 80px;
 	justify-items: center;
@@ -254,4 +254,11 @@ nav {
 
 .half-link > h2 {
 	height: 100px;
+}
+
+/* Footer */
+
+footer {
+	height: 80vh;
+	width: 100vw;
 }
