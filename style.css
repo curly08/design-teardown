@@ -135,9 +135,9 @@ nav {
 /* Guides */
 
 .guides {
-	display: grid;
-	grid-template: 1fr / 1fr 1fr 1fr;
-	justify-items: center;
+	display: flex;
+	justify-content: center;
+	gap: 70px;
 }
 
 .guide {
@@ -157,4 +157,24 @@ nav {
 .guide > .btn {
 	height: 70px;
 	width: 350px;
+}
+
+/* Latest Articles */
+
+.latest-articles {
+	margin: 80px;
+	display: grid;
+	grid-template: repeat(4, 1fr) / 1fr 1fr;
+	column-gap: 30px;
+	row-gap: 80px;
+	justify-items: center;
+}
+
+.half-post {
+	height: 350px;
+	width: 750px;
+}
+
+.half-post > h2 {
+	height: 140px;
 }
